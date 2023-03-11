@@ -1,54 +1,42 @@
-#def my_sum(num1, num2, *args):
- #   return num1 + num2 + sum(args)
-#my_sum(1, 2, 3)
+a= int(input("enter the number you want: "))
+b= int(input("enter the next number you want: "))
+c= int(input("enter the next number you want: "))
+d= int(input("enter the next number you want: "))
+e= int(input("enter the next number you want: "))
+f= int(input("enter the next number you want: "))
 
+if f == 0:
+ s = a + b + c + d +e
+x = s/5
+a = (a - x)**2
+b = (b - x)**2
+c = (c - x)**2
+d = (d - x)**2
+e = (e - x)**2
 
-#x=int(input())
-#while x != 0:
-    #y=int(input())
-    #z= sum(x,y)
-    #print(z)
+v = (a+b+c+d+e)/5
 
-#from functools import reduce
+sd = (v)**0.5
 
-#def mysum(*nums):
- #   return reduce(lambda x, y: x+y, nums)
+print("Variance: ",v)
 
-#a, b, c = 1, 2, 3
+print("Standard Deviation: ", sd)
 
-#res = mysum(a,b,c)
+g = int(input("enter the next number you want: "))
+if g == 0:
+    s = a + b + c + d +e + f
+x = s/6
+a = (a - x)**2
+b = (b - x)**2
+c = (c - x)**2
+d = (d - x)**2
+e = (e - x)**2
+f = (f - x)**2
 
+v = (a+b+c+d+e+f)/6
 
+sd = (v)**0.5
 
-import numpy as np
-i = []
-add = i.add(i)
+print("Variance: ",v)
 
-print (add)
-
-
-#a = int(input())
-#ask = "yes"
-#while (ask == "yes"):
-    #b = int(input("what is the number you want to add?: "))
-    #a = sum([a,b])
-    #ask = input("do you want to add another number?: ")
-
-#print (a)
-
-
-
- # print(i)
-#while 
-#for i in range(6):
- #x = (sum(i)/n)
-#v = (i - x)**2/n
-#print('Calculated Variance =' , s)
-
-
-
-
-
-#sd = (i - x)/n*n
-#p2 = sum(sd)
-#print('Calculated Standard Deviation =' ,p2)
+print("Standard Deviation: ", sd)
